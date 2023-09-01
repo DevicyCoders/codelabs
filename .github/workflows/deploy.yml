@@ -51,6 +51,6 @@ jobs:
         git config user.name "${GITHUB_ACTOR}"
         git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         git checkout --orphan gh-pages
-        git --work-tree site/ add --all
-        git --work-tree site/ commit -m "Deploy updates"
+        git --work-tree site/build/ add --all
+        git --work-tree site/build/ commit -m "Deploy updates"
         git push -f origin HEAD:gh-pages
