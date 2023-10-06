@@ -48,3 +48,4 @@ jobs:
         git add docs/
         git commit -m "Deploy updates to /docs"
         git push origin main
+      working-directory: site
