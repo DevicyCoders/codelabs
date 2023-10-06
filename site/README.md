@@ -25,7 +25,6 @@ $ export PATH="./node_modules/.bin/:$PATH"
 
 This does pose a mild security risk, so please do so at your own risk.
 
-
 ## Development
 
 ### Serve
