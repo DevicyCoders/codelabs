@@ -44,8 +44,8 @@ jobs:
         git config user.name "${GITHUB_ACTOR}"
         git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
         # Copy build output to /docs
-        cp -r site/* docs/
-        git add docs/
+        cp -r * ../docs/
+        git add ../docs/
         git commit -m "Deploy updates to /docs"
         git push origin main
       working-directory: site
