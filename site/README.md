@@ -1,6 +1,6 @@
 # Codelabs Site
 
-A site for hosting codelabs content. 
+A site for hosting codelabs content.  
 
 ## Prerequisites
 
