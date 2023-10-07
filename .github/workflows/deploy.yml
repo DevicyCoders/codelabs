@@ -15,7 +15,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: latest
+        node-version: 14
     - name: Cache node modules
       id: cache-npm
       uses: actions/cache@v3
@@ -43,7 +43,7 @@ jobs:
         npm link gulp
         gulp build --codelabs-dir=codelabs
         # Replace the symlink with the actual directory contents
-        if [ -L site/codelabs ]; then
+        if [ -L codelabs ]; then
             real_path=$(readlink codelabs)
             rm codelabs
             cp -r $real_path codelabs
