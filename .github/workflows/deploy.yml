@@ -43,7 +43,7 @@ jobs:
         npm link gulp
         gulp build --codelabs-dir=codelabs
         # Replace the symlink with the actual directory contents
-        if [ -L codelabs ]; then
+        if [ -L site/codelabs ]; then
             real_path=$(readlink codelabs)
             rm codelabs
             cp -r $real_path codelabs
