@@ -23,7 +23,6 @@ like `gulp`, you may want to add `./node_modules/.bin/` to your `$PATH` for conv
 ```text
 $ export PATH="./node_modules/.bin/:$PATH"
 ```
-
 This does pose a mild security risk, so please do so at your own risk.
 
 ## Development
