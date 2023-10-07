@@ -48,9 +48,15 @@ jobs:
         fi
         git config user.name "${GITHUB_ACTOR}"
         git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-        # Copy build output to /docs
-        cp -r build/ ../docs/
-        git add ../docs/
-        git commit -m "Deploy updates to /docs"
-        git push origin main
+        git add build
+        git commit -m "Deploy updates"
+        git push -u origin main
       working-directory: site
+    - name: Deploy
+      run: |
+        git config user.name "${GITHUB_ACTOR}"
+        git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+        git checkout --orphan gh-pages
+        git --work-tree site/build/ add --all
+        git --work-tree site/build/ commit -m "Deploy updates"
+        git push -f origin HEAD:gh-pages
