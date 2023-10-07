@@ -1,6 +1,7 @@
 # Codelabs Site
 
 A site for hosting codelabs content. 
+
 ## Prerequisites
 
 The project requires the following major dependencies:
