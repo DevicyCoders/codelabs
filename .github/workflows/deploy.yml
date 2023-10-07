@@ -42,9 +42,8 @@ jobs:
         npm link gulp
         gulp build --codelabs-dir=codelabs
         if [ -L build/codelabs ]; then
-            real_path=$(readlink build/codelabs)
             rm build/codelabs
-            cp -r $real_path build/codelabs
+            cp -r codelabs build/codelabs
         fi
         git config user.name "${GITHUB_ACTOR}"
         git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
