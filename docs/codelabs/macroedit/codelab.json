@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2023-09-01T17:38:38Z",
+  "id": "macroedit",
+  "duration": 0,
+  "title": "MacroEdit",
+  "authors": "pmu",
+  "summary": "Description de MacroEdit",
+  "source": "13ylJT2p0rgL0-z7Ks3M4cnyrIvLP73-R0iTMGTlfc-Q",
+  "theme": "efficy",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "efficy"
+  ],
+  "tags": [
+    "macro"
+  ],
+  "feedback": "https://github.com/DevicyCoders/devicycoders.github.io/issues",
+  "url": "macroedit"
+}
