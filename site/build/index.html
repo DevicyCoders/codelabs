@@ -153,7 +153,24 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               
           </paper-listbox>
         </paper-dropdown-menu>
-        </div>
+        <paper-dropdown-menu
+          label="Filter by category"
+          class="dropdown-filter"
+          no-label-float
+          noink no-animations
+        >
+          <paper-listbox
+            id="categorylist"
+            slot="dropdown-content"
+            class="dropdown-content"
+            on-iron-activate="onCategoryActivate"
+            attr-for-selected="filter"
+          >
+              <paper-item filter="efficy">efficy</paper-item>
+                <paper-item filter="js/commands">js/commands</paper-item>
+                
+          </paper-listbox>
+        </paper-dropdown-menu></div>
 
       <card-sorter id="cards" class="site-width">
         
@@ -196,6 +213,27 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
               <div class="card-footer">
                 <div class="category-icon efficy-icon"></div>
                 <paper-button class="efficy-bg">Start</paper-button>
+              </div>
+            </a>
+          
+          
+            
+            <a href="/codelabs/commandsoverriding/index.html?index=..%2F..index" on-tap="navigate"
+               class="codelab-card category-js/commands"
+               data-category="js/commands"
+               data-title="Commands overriding"
+               data-duration="0"
+               data-updated="2023-10-16T08:38:55Z"
+               data-tags="js"
+               data-pin="">
+              <div class="description">Commands overriding</div>
+              <div class="card-duration">
+                <span></span>
+                <span>Updated Oct 16, 2023</span>
+              </div>
+              <div class="card-footer">
+                <div class="category-icon js/commands-icon"></div>
+                <paper-button class="js/commands-bg">Start</paper-button>
               </div>
             </a>
           
