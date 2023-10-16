@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2023-10-16T08:38:55Z",
+  "id": "commandsoverriding",
+  "duration": 0,
+  "title": "Commands overriding",
+  "authors": "pmu",
+  "summary": "How to override comands",
+  "source": "1930DrxYj9d6A_Z0vTjq7AZ3zrXp0-ZQcxKD_f-u4eIc",
+  "theme": "js-commands",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "js/commands"
+  ],
+  "tags": [
+    "js"
+  ],
+  "feedback": "https://github.com/DevicyCoders/devicycoders.github.io/issues",
+  "url": "commandsoverriding"
+}

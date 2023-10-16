@@ -1,0 +1,25 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2023-10-16T07:24:12Z",
+  "id": "macroconsult",
+  "duration": 0,
+  "title": "MacroConsult",
+  "authors": "pmu",
+  "summary": "Macro consult macros",
+  "source": "1roJY6l0X615ang2gCKlzVF93SdOJlY2FllFrUmdZvm8",
+  "theme": "efficy",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "efficy"
+  ],
+  "tags": [
+    "macro"
+  ],
+  "feedback": "https://github.com/DevicyCoders/devicycoders.github.io/issues",
+  "url": "macroconsult"
+}
